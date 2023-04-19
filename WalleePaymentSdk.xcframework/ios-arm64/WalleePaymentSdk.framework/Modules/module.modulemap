@@ -1,0 +1,11 @@
+framework module WalleePaymentSdk {
+  umbrella header "WalleePaymentSdk.h"
+
+  export *
+  module * { export * }
+}
+
+module WalleePaymentSdk.Swift {
+  header "WalleePaymentSdk-Swift.h"
+  requires objc
+}

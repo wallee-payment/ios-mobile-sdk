@@ -1,0 +1,67 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios12.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name WalleePaymentSdk
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import Foundation
+import Swift
+import UIKit
+@_exported import WalleePaymentSdk
+import _Concurrency
+import _StringProcessing
+public enum ConsoleErrorHandler : Swift.String, Foundation.LocalizedError {
+  case MissingTokenValue
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol WalleePaymentResultObserver : AnyObject {
+  func paymentResult(paymentResultMessage: PaymentResult)
+}
+public enum ThemeEnum : Swift.String {
+  case LIGHT
+  case DARK
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum PaymentResultEnum : Swift.String {
+  case CANCELED
+  case FAILED
+  case COMPLETED
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct PaymentResult {
+  public var code: PaymentResultEnum
+  public var message: Swift.String?
+}
+public class WalleePaymentSdk {
+  public init(eventObserver: WalleePaymentResultObserver)
+  public init()
+  public func launchPayment(token: Swift.String, rootController: UIKit.UIViewController)
+  public func close()
+  public func setLightTheme(light: Foundation.NSMutableDictionary)
+  public func setDarkTheme(dark: Foundation.NSMutableDictionary)
+  public func setCustomTheme(custom: Foundation.NSMutableDictionary?, baseTheme: ThemeEnum)
+  @objc deinit
+}
+extension ConsoleErrorHandler : Swift.Equatable {}
+extension ConsoleErrorHandler : Swift.Hashable {}
+extension ConsoleErrorHandler : Swift.RawRepresentable {}
+extension ThemeEnum : Swift.Equatable {}
+extension ThemeEnum : Swift.Hashable {}
+extension ThemeEnum : Swift.RawRepresentable {}
+extension PaymentResultEnum : Swift.Equatable {}
+extension PaymentResultEnum : Swift.Hashable {}
+extension PaymentResultEnum : Swift.RawRepresentable {}

@@ -1,0 +1,1422 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConsoleErrorHandler",
+        "printedName": "ConsoleErrorHandler",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "MissingTokenValue",
+            "printedName": "MissingTokenValue",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WalleePaymentSdk.ConsoleErrorHandler.Type) -> WalleePaymentSdk.ConsoleErrorHandler",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsoleErrorHandler",
+                    "printedName": "WalleePaymentSdk.ConsoleErrorHandler",
+                    "usr": "s:16WalleePaymentSdk19ConsoleErrorHandlerO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WalleePaymentSdk.ConsoleErrorHandler.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsoleErrorHandler",
+                        "printedName": "WalleePaymentSdk.ConsoleErrorHandler",
+                        "usr": "s:16WalleePaymentSdk19ConsoleErrorHandlerO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WalleePaymentSdk19ConsoleErrorHandlerO17MissingTokenValueyA2CmF",
+            "mangledName": "$s16WalleePaymentSdk19ConsoleErrorHandlerO17MissingTokenValueyA2CmF",
+            "moduleName": "WalleePaymentSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16WalleePaymentSdk19ConsoleErrorHandlerO16errorDescriptionSSSgvp",
+            "mangledName": "$s16WalleePaymentSdk19ConsoleErrorHandlerO16errorDescriptionSSSgvp",
+            "moduleName": "WalleePaymentSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WalleePaymentSdk19ConsoleErrorHandlerO16errorDescriptionSSSgvg",
+                "mangledName": "$s16WalleePaymentSdk19ConsoleErrorHandlerO16errorDescriptionSSSgvg",
+                "moduleName": "WalleePaymentSdk",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WalleePaymentSdk.ConsoleErrorHandler?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsoleErrorHandler",
+                    "printedName": "WalleePaymentSdk.ConsoleErrorHandler",
+                    "usr": "s:16WalleePaymentSdk19ConsoleErrorHandlerO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16WalleePaymentSdk19ConsoleErrorHandlerO8rawValueACSgSS_tcfc",
+            "mangledName": "$s16WalleePaymentSdk19ConsoleErrorHandlerO8rawValueACSgSS_tcfc",
+            "moduleName": "WalleePaymentSdk",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16WalleePaymentSdk19ConsoleErrorHandlerO8rawValueSSvp",
+            "mangledName": "$s16WalleePaymentSdk19ConsoleErrorHandlerO8rawValueSSvp",
+            "moduleName": "WalleePaymentSdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WalleePaymentSdk19ConsoleErrorHandlerO8rawValueSSvg",
+                "mangledName": "$s16WalleePaymentSdk19ConsoleErrorHandlerO8rawValueSSvg",
+                "moduleName": "WalleePaymentSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16WalleePaymentSdk19ConsoleErrorHandlerO",
+        "mangledName": "$s16WalleePaymentSdk19ConsoleErrorHandlerO",
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WalleePaymentResultObserver",
+        "printedName": "WalleePaymentResultObserver",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "paymentResult",
+            "printedName": "paymentResult(paymentResultMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentResult",
+                "printedName": "WalleePaymentSdk.PaymentResult",
+                "usr": "s:16WalleePaymentSdk0B6ResultV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16WalleePaymentSdk0aB14ResultObserverP07paymentD00fD7MessageyAA0bD0V_tF",
+            "mangledName": "$s16WalleePaymentSdk0aB14ResultObserverP07paymentD00fD7MessageyAA0bD0V_tF",
+            "moduleName": "WalleePaymentSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : WalleePaymentSdk.WalleePaymentResultObserver>",
+            "sugared_genericSig": "<Self where Self : WalleePaymentSdk.WalleePaymentResultObserver>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:16WalleePaymentSdk0aB14ResultObserverP",
+        "mangledName": "$s16WalleePaymentSdk0aB14ResultObserverP",
+        "moduleName": "WalleePaymentSdk",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ThemeEnum",
+        "printedName": "ThemeEnum",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "LIGHT",
+            "printedName": "LIGHT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WalleePaymentSdk.ThemeEnum.Type) -> WalleePaymentSdk.ThemeEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ThemeEnum",
+                    "printedName": "WalleePaymentSdk.ThemeEnum",
+                    "usr": "s:16WalleePaymentSdk9ThemeEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WalleePaymentSdk.ThemeEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ThemeEnum",
+                        "printedName": "WalleePaymentSdk.ThemeEnum",
+                        "usr": "s:16WalleePaymentSdk9ThemeEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WalleePaymentSdk9ThemeEnumO5LIGHTyA2CmF",
+            "mangledName": "$s16WalleePaymentSdk9ThemeEnumO5LIGHTyA2CmF",
+            "moduleName": "WalleePaymentSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "DARK",
+            "printedName": "DARK",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WalleePaymentSdk.ThemeEnum.Type) -> WalleePaymentSdk.ThemeEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ThemeEnum",
+                    "printedName": "WalleePaymentSdk.ThemeEnum",
+                    "usr": "s:16WalleePaymentSdk9ThemeEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WalleePaymentSdk.ThemeEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ThemeEnum",
+                        "printedName": "WalleePaymentSdk.ThemeEnum",
+                        "usr": "s:16WalleePaymentSdk9ThemeEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WalleePaymentSdk9ThemeEnumO4DARKyA2CmF",
+            "mangledName": "$s16WalleePaymentSdk9ThemeEnumO4DARKyA2CmF",
+            "moduleName": "WalleePaymentSdk"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WalleePaymentSdk.ThemeEnum?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ThemeEnum",
+                    "printedName": "WalleePaymentSdk.ThemeEnum",
+                    "usr": "s:16WalleePaymentSdk9ThemeEnumO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16WalleePaymentSdk9ThemeEnumO8rawValueACSgSS_tcfc",
+            "mangledName": "$s16WalleePaymentSdk9ThemeEnumO8rawValueACSgSS_tcfc",
+            "moduleName": "WalleePaymentSdk",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16WalleePaymentSdk9ThemeEnumO8rawValueSSvp",
+            "mangledName": "$s16WalleePaymentSdk9ThemeEnumO8rawValueSSvp",
+            "moduleName": "WalleePaymentSdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WalleePaymentSdk9ThemeEnumO8rawValueSSvg",
+                "mangledName": "$s16WalleePaymentSdk9ThemeEnumO8rawValueSSvg",
+                "moduleName": "WalleePaymentSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16WalleePaymentSdk9ThemeEnumO",
+        "mangledName": "$s16WalleePaymentSdk9ThemeEnumO",
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PaymentResultEnum",
+        "printedName": "PaymentResultEnum",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "CANCELED",
+            "printedName": "CANCELED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WalleePaymentSdk.PaymentResultEnum.Type) -> WalleePaymentSdk.PaymentResultEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentResultEnum",
+                    "printedName": "WalleePaymentSdk.PaymentResultEnum",
+                    "usr": "s:16WalleePaymentSdk0B10ResultEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WalleePaymentSdk.PaymentResultEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentResultEnum",
+                        "printedName": "WalleePaymentSdk.PaymentResultEnum",
+                        "usr": "s:16WalleePaymentSdk0B10ResultEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WalleePaymentSdk0B10ResultEnumO8CANCELEDyA2CmF",
+            "mangledName": "$s16WalleePaymentSdk0B10ResultEnumO8CANCELEDyA2CmF",
+            "moduleName": "WalleePaymentSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "FAILED",
+            "printedName": "FAILED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WalleePaymentSdk.PaymentResultEnum.Type) -> WalleePaymentSdk.PaymentResultEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentResultEnum",
+                    "printedName": "WalleePaymentSdk.PaymentResultEnum",
+                    "usr": "s:16WalleePaymentSdk0B10ResultEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WalleePaymentSdk.PaymentResultEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentResultEnum",
+                        "printedName": "WalleePaymentSdk.PaymentResultEnum",
+                        "usr": "s:16WalleePaymentSdk0B10ResultEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WalleePaymentSdk0B10ResultEnumO6FAILEDyA2CmF",
+            "mangledName": "$s16WalleePaymentSdk0B10ResultEnumO6FAILEDyA2CmF",
+            "moduleName": "WalleePaymentSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "COMPLETED",
+            "printedName": "COMPLETED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WalleePaymentSdk.PaymentResultEnum.Type) -> WalleePaymentSdk.PaymentResultEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentResultEnum",
+                    "printedName": "WalleePaymentSdk.PaymentResultEnum",
+                    "usr": "s:16WalleePaymentSdk0B10ResultEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WalleePaymentSdk.PaymentResultEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentResultEnum",
+                        "printedName": "WalleePaymentSdk.PaymentResultEnum",
+                        "usr": "s:16WalleePaymentSdk0B10ResultEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WalleePaymentSdk0B10ResultEnumO9COMPLETEDyA2CmF",
+            "mangledName": "$s16WalleePaymentSdk0B10ResultEnumO9COMPLETEDyA2CmF",
+            "moduleName": "WalleePaymentSdk"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WalleePaymentSdk.PaymentResultEnum?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentResultEnum",
+                    "printedName": "WalleePaymentSdk.PaymentResultEnum",
+                    "usr": "s:16WalleePaymentSdk0B10ResultEnumO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16WalleePaymentSdk0B10ResultEnumO8rawValueACSgSS_tcfc",
+            "mangledName": "$s16WalleePaymentSdk0B10ResultEnumO8rawValueACSgSS_tcfc",
+            "moduleName": "WalleePaymentSdk",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16WalleePaymentSdk0B10ResultEnumO8rawValueSSvp",
+            "mangledName": "$s16WalleePaymentSdk0B10ResultEnumO8rawValueSSvp",
+            "moduleName": "WalleePaymentSdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WalleePaymentSdk0B10ResultEnumO8rawValueSSvg",
+                "mangledName": "$s16WalleePaymentSdk0B10ResultEnumO8rawValueSSvg",
+                "moduleName": "WalleePaymentSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16WalleePaymentSdk0B10ResultEnumO",
+        "mangledName": "$s16WalleePaymentSdk0B10ResultEnumO",
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PaymentResult",
+        "printedName": "PaymentResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentResultEnum",
+                "printedName": "WalleePaymentSdk.PaymentResultEnum",
+                "usr": "s:16WalleePaymentSdk0B10ResultEnumO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16WalleePaymentSdk0B6ResultV4codeAA0bD4EnumOvp",
+            "mangledName": "$s16WalleePaymentSdk0B6ResultV4codeAA0bD4EnumOvp",
+            "moduleName": "WalleePaymentSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentResultEnum",
+                    "printedName": "WalleePaymentSdk.PaymentResultEnum",
+                    "usr": "s:16WalleePaymentSdk0B10ResultEnumO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WalleePaymentSdk0B6ResultV4codeAA0bD4EnumOvg",
+                "mangledName": "$s16WalleePaymentSdk0B6ResultV4codeAA0bD4EnumOvg",
+                "moduleName": "WalleePaymentSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentResultEnum",
+                    "printedName": "WalleePaymentSdk.PaymentResultEnum",
+                    "usr": "s:16WalleePaymentSdk0B10ResultEnumO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WalleePaymentSdk0B6ResultV4codeAA0bD4EnumOvs",
+                "mangledName": "$s16WalleePaymentSdk0B6ResultV4codeAA0bD4EnumOvs",
+                "moduleName": "WalleePaymentSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WalleePaymentSdk0B6ResultV4codeAA0bD4EnumOvM",
+                "mangledName": "$s16WalleePaymentSdk0B6ResultV4codeAA0bD4EnumOvM",
+                "moduleName": "WalleePaymentSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16WalleePaymentSdk0B6ResultV7messageSSSgvp",
+            "mangledName": "$s16WalleePaymentSdk0B6ResultV7messageSSSgvp",
+            "moduleName": "WalleePaymentSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WalleePaymentSdk0B6ResultV7messageSSSgvg",
+                "mangledName": "$s16WalleePaymentSdk0B6ResultV7messageSSSgvg",
+                "moduleName": "WalleePaymentSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WalleePaymentSdk0B6ResultV7messageSSSgvs",
+                "mangledName": "$s16WalleePaymentSdk0B6ResultV7messageSSSgvs",
+                "moduleName": "WalleePaymentSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WalleePaymentSdk0B6ResultV7messageSSSgvM",
+                "mangledName": "$s16WalleePaymentSdk0B6ResultV7messageSSSgvM",
+                "moduleName": "WalleePaymentSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16WalleePaymentSdk0B6ResultV",
+        "mangledName": "$s16WalleePaymentSdk0B6ResultV",
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WalleePaymentSdk",
+        "printedName": "WalleePaymentSdk",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(eventObserver:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WalleePaymentSdk",
+                "printedName": "WalleePaymentSdk.WalleePaymentSdk",
+                "usr": "s:16WalleePaymentSdkAAC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WalleePaymentResultObserver",
+                "printedName": "WalleePaymentSdk.WalleePaymentResultObserver",
+                "usr": "s:16WalleePaymentSdk0aB14ResultObserverP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16WalleePaymentSdkAAC13eventObserverAbA0ab6ResultE0_p_tcfc",
+            "mangledName": "$s16WalleePaymentSdkAAC13eventObserverAbA0ab6ResultE0_p_tcfc",
+            "moduleName": "WalleePaymentSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WalleePaymentSdk",
+                "printedName": "WalleePaymentSdk.WalleePaymentSdk",
+                "usr": "s:16WalleePaymentSdkAAC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16WalleePaymentSdkAACABycfc",
+            "mangledName": "$s16WalleePaymentSdkAACABycfc",
+            "moduleName": "WalleePaymentSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "launchPayment",
+            "printedName": "launchPayment(token:rootController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16WalleePaymentSdkAAC06launchB05token14rootControllerySS_So06UIViewG0CtF",
+            "mangledName": "$s16WalleePaymentSdkAAC06launchB05token14rootControllerySS_So06UIViewG0CtF",
+            "moduleName": "WalleePaymentSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "close",
+            "printedName": "close()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16WalleePaymentSdkAAC5closeyyF",
+            "mangledName": "$s16WalleePaymentSdkAAC5closeyyF",
+            "moduleName": "WalleePaymentSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLightTheme",
+            "printedName": "setLightTheme(light:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSMutableDictionary",
+                "printedName": "Foundation.NSMutableDictionary",
+                "usr": "c:objc(cs)NSMutableDictionary"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16WalleePaymentSdkAAC13setLightTheme5lightySo19NSMutableDictionaryC_tF",
+            "mangledName": "$s16WalleePaymentSdkAAC13setLightTheme5lightySo19NSMutableDictionaryC_tF",
+            "moduleName": "WalleePaymentSdk",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDarkTheme",
+            "printedName": "setDarkTheme(dark:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSMutableDictionary",
+                "printedName": "Foundation.NSMutableDictionary",
+                "usr": "c:objc(cs)NSMutableDictionary"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16WalleePaymentSdkAAC12setDarkTheme4darkySo19NSMutableDictionaryC_tF",
+            "mangledName": "$s16WalleePaymentSdkAAC12setDarkTheme4darkySo19NSMutableDictionaryC_tF",
+            "moduleName": "WalleePaymentSdk",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomTheme",
+            "printedName": "setCustomTheme(custom:baseTheme:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSMutableDictionary?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSMutableDictionary",
+                    "printedName": "Foundation.NSMutableDictionary",
+                    "usr": "c:objc(cs)NSMutableDictionary"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ThemeEnum",
+                "printedName": "WalleePaymentSdk.ThemeEnum",
+                "usr": "s:16WalleePaymentSdk9ThemeEnumO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16WalleePaymentSdkAAC14setCustomTheme6custom04baseF0ySo19NSMutableDictionaryCSg_AA0F4EnumOtF",
+            "mangledName": "$s16WalleePaymentSdkAAC14setCustomTheme6custom04baseF0ySo19NSMutableDictionaryCSg_AA0F4EnumOtF",
+            "moduleName": "WalleePaymentSdk",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16WalleePaymentSdkAAC",
+        "mangledName": "$s16WalleePaymentSdkAAC",
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/RNScreenController.swift",
+      "kind": "StringLiteral",
+      "offset": 158,
+      "length": 43,
+      "value": "\"wallee-payment-sdk-close-app-notification\""
+    },
+    {
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/RNScreenController.swift",
+      "kind": "Dictionary",
+      "offset": 250,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/RNScreenController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 286,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Helpers\/ConsoleErrorHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 106,
+      "length": 25,
+      "value": "\"Token can not be empty!\""
+    },
+    {
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Helpers\/ConsoleErrorHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 106,
+      "length": 25,
+      "value": "\"Token can not be empty!\""
+    },
+    {
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 69,
+      "length": 7,
+      "value": "\"light\""
+    },
+    {
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 93,
+      "length": 6,
+      "value": "\"dark\""
+    },
+    {
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 69,
+      "length": 7,
+      "value": "\"light\""
+    },
+    {
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 93,
+      "length": 6,
+      "value": "\"dark\""
+    },
+    {
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "kind": "StringLiteral",
+      "offset": 168,
+      "length": 10,
+      "value": "\"CANCELED\""
+    },
+    {
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "kind": "StringLiteral",
+      "offset": 197,
+      "length": 8,
+      "value": "\"FAILED\""
+    },
+    {
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "kind": "StringLiteral",
+      "offset": 227,
+      "length": 11,
+      "value": "\"COMPLETED\""
+    },
+    {
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "kind": "StringLiteral",
+      "offset": 168,
+      "length": 10,
+      "value": "\"CANCELED\""
+    },
+    {
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "kind": "StringLiteral",
+      "offset": 197,
+      "length": 8,
+      "value": "\"FAILED\""
+    },
+    {
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "kind": "StringLiteral",
+      "offset": 227,
+      "length": 11,
+      "value": "\"COMPLETED\""
+    },
+    {
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/WalleePaymentSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 144,
+      "length": 29,
+      "value": "\"wallee.com.WalleePaymentSdk\""
+    },
+    {
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/WalleePaymentSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 217,
+      "length": 10,
+      "value": "\"RNScreen\""
+    },
+    {
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/WalleePaymentSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 285,
+      "length": 11,
+      "value": "\"rn-screen\""
+    },
+    {
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/WalleePaymentSdk.swift",
+      "kind": "BooleanLiteral",
+      "offset": 612,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

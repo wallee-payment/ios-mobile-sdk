@@ -1,0 +1,67 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios12.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name WalleePaymentSdk
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import Foundation
+import Swift
+import UIKit
+@_exported import WalleePaymentSdk
+import _Concurrency
+import _StringProcessing
+public enum ConsoleErrorHandler : Swift.String, Foundation.LocalizedError {
+  case MissingTokenValue
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol WalleePaymentResultObserver : AnyObject {
+  func paymentResult(paymentResultMessage: WalleePaymentSdk.PaymentResult)
+}
+public enum ThemeEnum : Swift.String {
+  case LIGHT
+  case DARK
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum PaymentResultEnum : Swift.String {
+  case CANCELED
+  case FAILED
+  case COMPLETED
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct PaymentResult {
+  public var code: WalleePaymentSdk.PaymentResultEnum
+  public var message: Swift.String?
+}
+public class WalleePaymentSdk {
+  public init(eventObserver: WalleePaymentSdk.WalleePaymentResultObserver)
+  public init()
+  public func launchPayment(token: Swift.String, rootController: UIKit.UIViewController)
+  public func close()
+  public func setLightTheme(light: Foundation.NSMutableDictionary)
+  public func setDarkTheme(dark: Foundation.NSMutableDictionary)
+  public func setCustomTheme(custom: Foundation.NSMutableDictionary?, baseTheme: WalleePaymentSdk.ThemeEnum)
+  @objc deinit
+}
+extension WalleePaymentSdk.ConsoleErrorHandler : Swift.Equatable {}
+extension WalleePaymentSdk.ConsoleErrorHandler : Swift.Hashable {}
+extension WalleePaymentSdk.ConsoleErrorHandler : Swift.RawRepresentable {}
+extension WalleePaymentSdk.ThemeEnum : Swift.Equatable {}
+extension WalleePaymentSdk.ThemeEnum : Swift.Hashable {}
+extension WalleePaymentSdk.ThemeEnum : Swift.RawRepresentable {}
+extension WalleePaymentSdk.PaymentResultEnum : Swift.Equatable {}
+extension WalleePaymentSdk.PaymentResultEnum : Swift.Hashable {}
+extension WalleePaymentSdk.PaymentResultEnum : Swift.RawRepresentable {}
