@@ -1286,133 +1286,133 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/RNScreenController.swift",
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/RNScreenController.swift",
       "kind": "StringLiteral",
       "offset": 158,
       "length": 43,
       "value": "\"wallee-payment-sdk-close-app-notification\""
     },
     {
-      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/RNScreenController.swift",
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/RNScreenController.swift",
       "kind": "Dictionary",
       "offset": 250,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/RNScreenController.swift",
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/RNScreenController.swift",
       "kind": "IntegerLiteral",
       "offset": 286,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Helpers\/ConsoleErrorHandler.swift",
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Helpers\/ConsoleErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 106,
       "length": 25,
       "value": "\"Token can not be empty!\""
     },
     {
-      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Helpers\/ConsoleErrorHandler.swift",
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Helpers\/ConsoleErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 106,
       "length": 25,
       "value": "\"Token can not be empty!\""
     },
     {
-      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
       "kind": "StringLiteral",
       "offset": 69,
       "length": 7,
       "value": "\"light\""
     },
     {
-      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
       "kind": "StringLiteral",
       "offset": 93,
       "length": 6,
       "value": "\"dark\""
     },
     {
-      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
       "kind": "StringLiteral",
       "offset": 69,
       "length": 7,
       "value": "\"light\""
     },
     {
-      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
       "kind": "StringLiteral",
       "offset": 93,
       "length": 6,
       "value": "\"dark\""
     },
     {
-      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 168,
       "length": 10,
       "value": "\"CANCELED\""
     },
     {
-      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 197,
       "length": 8,
       "value": "\"FAILED\""
     },
     {
-      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 11,
       "value": "\"COMPLETED\""
     },
     {
-      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 168,
       "length": 10,
       "value": "\"CANCELED\""
     },
     {
-      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 197,
       "length": 8,
       "value": "\"FAILED\""
     },
     {
-      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 11,
       "value": "\"COMPLETED\""
     },
     {
-      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/WalleePaymentSdk.swift",
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/WalleePaymentSdk.swift",
       "kind": "StringLiteral",
       "offset": 144,
       "length": 29,
       "value": "\"wallee.com.WalleePaymentSdk\""
     },
     {
-      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/WalleePaymentSdk.swift",
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/WalleePaymentSdk.swift",
       "kind": "StringLiteral",
       "offset": 217,
       "length": 10,
       "value": "\"RNScreen\""
     },
     {
-      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/WalleePaymentSdk.swift",
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/WalleePaymentSdk.swift",
       "kind": "StringLiteral",
       "offset": 285,
       "length": 11,
       "value": "\"rn-screen\""
     },
     {
-      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/WalleePaymentSdk.swift",
+      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/WalleePaymentSdk.swift",
       "kind": "BooleanLiteral",
       "offset": 612,
       "length": 5,
