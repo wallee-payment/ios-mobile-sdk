@@ -657,6 +657,43 @@
             "moduleName": "WalleePaymentSdk"
           },
           {
+            "kind": "Var",
+            "name": "UNCLEAR",
+            "printedName": "UNCLEAR",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WalleePaymentSdk.PaymentResultEnum.Type) -> WalleePaymentSdk.PaymentResultEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentResultEnum",
+                    "printedName": "WalleePaymentSdk.PaymentResultEnum",
+                    "usr": "s:16WalleePaymentSdk0B10ResultEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WalleePaymentSdk.PaymentResultEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentResultEnum",
+                        "printedName": "WalleePaymentSdk.PaymentResultEnum",
+                        "usr": "s:16WalleePaymentSdk0B10ResultEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WalleePaymentSdk0B10ResultEnumO7UNCLEARyA2CmF",
+            "mangledName": "$s16WalleePaymentSdk0B10ResultEnumO7UNCLEARyA2CmF",
+            "moduleName": "WalleePaymentSdk"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -998,6 +1035,40 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "WalleePaymentSdk"
       },
       {
@@ -1046,12 +1117,111 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
         "moduleName": "WalleePaymentSdk"
       },
       {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "WalleePaymentSdk"
       },
@@ -1091,27 +1261,6 @@
             "declKind": "Constructor",
             "usr": "s:16WalleePaymentSdkAAC13eventObserverAbA0ab6ResultE0_p_tcfc",
             "mangledName": "$s16WalleePaymentSdkAAC13eventObserverAbA0ab6ResultE0_p_tcfc",
-            "moduleName": "WalleePaymentSdk",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WalleePaymentSdk",
-                "printedName": "WalleePaymentSdk.WalleePaymentSdk",
-                "usr": "s:16WalleePaymentSdkAAC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:16WalleePaymentSdkAACABycfc",
-            "mangledName": "$s16WalleePaymentSdkAACABycfc",
             "moduleName": "WalleePaymentSdk",
             "declAttributes": [
               "AccessControl"
@@ -1280,141 +1429,351 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "presentModalView",
+            "printedName": "presentModalView(isPresented:token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP16WalleePaymentSdkE012presentModalC011isPresented5tokenQrAA7BindingVySbG_AIySSGtF",
+            "mangledName": "$s7SwiftUI4ViewP16WalleePaymentSdkE012presentModalC011isPresented5tokenQrAA7BindingVySbG_AIySSGtF",
+            "moduleName": "WalleePaymentSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUI",
+        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "TypeEraser",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/RNScreenController.swift",
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/RNScreenController.swift",
       "kind": "StringLiteral",
       "offset": 158,
       "length": 43,
       "value": "\"wallee-payment-sdk-close-app-notification\""
     },
     {
-      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/RNScreenController.swift",
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/RNScreenController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 229,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/RNScreenController.swift",
       "kind": "Dictionary",
-      "offset": 250,
+      "offset": 282,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/RNScreenController.swift",
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Helpers\/ConsoleErrorHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 106,
+      "length": 25,
+      "value": "\"Token can not be empty!\""
+    },
+    {
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Helpers\/ConsoleErrorHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 106,
+      "length": 25,
+      "value": "\"Token can not be empty!\""
+    },
+    {
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 69,
+      "length": 7,
+      "value": "\"light\""
+    },
+    {
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 93,
+      "length": 6,
+      "value": "\"dark\""
+    },
+    {
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 69,
+      "length": 7,
+      "value": "\"light\""
+    },
+    {
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 93,
+      "length": 6,
+      "value": "\"dark\""
+    },
+    {
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "kind": "StringLiteral",
+      "offset": 168,
+      "length": 10,
+      "value": "\"CANCELED\""
+    },
+    {
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "kind": "StringLiteral",
+      "offset": 197,
+      "length": 8,
+      "value": "\"FAILED\""
+    },
+    {
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "kind": "StringLiteral",
+      "offset": 227,
+      "length": 11,
+      "value": "\"COMPLETED\""
+    },
+    {
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "kind": "StringLiteral",
+      "offset": 258,
+      "length": 9,
+      "value": "\"UNCLEAR\""
+    },
+    {
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "kind": "StringLiteral",
+      "offset": 168,
+      "length": 10,
+      "value": "\"CANCELED\""
+    },
+    {
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "kind": "StringLiteral",
+      "offset": 197,
+      "length": 8,
+      "value": "\"FAILED\""
+    },
+    {
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "kind": "StringLiteral",
+      "offset": 227,
+      "length": 11,
+      "value": "\"COMPLETED\""
+    },
+    {
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "kind": "StringLiteral",
+      "offset": 258,
+      "length": 9,
+      "value": "\"UNCLEAR\""
+    },
+    {
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ModalPresentationController.swift",
       "kind": "IntegerLiteral",
-      "offset": 286,
+      "offset": 496,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ModalPresentationController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 502,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ModalTransitioningDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 256,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ModalTransitioningDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 150,
+      "length": 26,
+      "value": "\"WalleePaymentSdk.ModalTransitioningDelegate\""
+    },
+    {
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 267,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Helpers\/ConsoleErrorHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 106,
-      "length": 25,
-      "value": "\"Token can not be empty!\""
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 311,
+      "length": 3,
+      "value": "0.3"
     },
     {
-      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Helpers\/ConsoleErrorHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 106,
-      "length": 25,
-      "value": "\"Token can not be empty!\""
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 369,
+      "length": 3,
+      "value": "0.5"
     },
     {
-      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
-      "kind": "StringLiteral",
-      "offset": 69,
-      "length": 7,
-      "value": "\"light\""
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 375,
+      "length": 3,
+      "value": "0.4"
     },
     {
-      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
-      "kind": "StringLiteral",
-      "offset": 93,
-      "length": 6,
-      "value": "\"dark\""
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 438,
+      "length": 1,
+      "value": "1"
     },
     {
-      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
-      "kind": "StringLiteral",
-      "offset": 69,
-      "length": 7,
-      "value": "\"light\""
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 442,
+      "length": 3,
+      "value": "0.5"
     },
     {
-      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
-      "kind": "StringLiteral",
-      "offset": 93,
-      "length": 6,
-      "value": "\"dark\""
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 494,
+      "length": 1,
+      "value": "1"
     },
     {
-      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
-      "kind": "StringLiteral",
-      "offset": 168,
-      "length": 10,
-      "value": "\"CANCELED\""
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 498,
+      "length": 3,
+      "value": "0.6"
     },
     {
-      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
-      "kind": "StringLiteral",
-      "offset": 197,
-      "length": 8,
-      "value": "\"FAILED\""
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 553,
+      "length": 1,
+      "value": "1"
     },
     {
-      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
-      "kind": "StringLiteral",
-      "offset": 227,
-      "length": 11,
-      "value": "\"COMPLETED\""
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 557,
+      "length": 3,
+      "value": "0.5"
     },
     {
-      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
-      "kind": "StringLiteral",
-      "offset": 168,
-      "length": 10,
-      "value": "\"CANCELED\""
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 603,
+      "length": 3,
+      "value": "0.5"
     },
     {
-      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 197,
-      "length": 8,
-      "value": "\"FAILED\""
-    },
-    {
-      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
-      "kind": "StringLiteral",
-      "offset": 227,
-      "length": 11,
-      "value": "\"COMPLETED\""
-    },
-    {
-      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/WalleePaymentSdk.swift",
-      "kind": "StringLiteral",
-      "offset": 144,
+      "offset": 664,
       "length": 29,
       "value": "\"wallee.com.WalleePaymentSdk\""
     },
     {
-      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/WalleePaymentSdk.swift",
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 217,
+      "offset": 744,
       "length": 10,
       "value": "\"RNScreen\""
     },
     {
-      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/WalleePaymentSdk.swift",
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 285,
+      "offset": 821,
       "length": 11,
       "value": "\"rn-screen\""
     },
     {
-      "filePath": "\/Users\/danielaotelea\/Dev\/Projects\/new_checkout\/mobile-sdk-android\/ios\/WalleePaymentSdk\/WalleePaymentSdk.swift",
+      "filePath": "\/Users\/irapaliy\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Helpers\/Theme.swift",
       "kind": "BooleanLiteral",
-      "offset": 612,
+      "offset": 432,
       "length": 5,
       "value": "false"
     }

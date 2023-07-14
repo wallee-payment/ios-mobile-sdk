@@ -3,8 +3,10 @@
 // swift-module-flags: -target x86_64-apple-ios12.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name WalleePaymentSdk
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
+import Combine
 import Foundation
 import Swift
+import SwiftUI
 import UIKit
 @_exported import WalleePaymentSdk
 import _Concurrency
@@ -36,6 +38,7 @@ public enum PaymentResultEnum : Swift.String {
   case CANCELED
   case FAILED
   case COMPLETED
+  case UNCLEAR
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -48,13 +51,17 @@ public struct PaymentResult {
 }
 public class WalleePaymentSdk {
   public init(eventObserver: WalleePaymentSdk.WalleePaymentResultObserver)
-  public init()
   public func launchPayment(token: Swift.String, rootController: UIKit.UIViewController)
   public func close()
   public func setLightTheme(light: Foundation.NSMutableDictionary)
   public func setDarkTheme(dark: Foundation.NSMutableDictionary)
   public func setCustomTheme(custom: Foundation.NSMutableDictionary?, baseTheme: WalleePaymentSdk.ThemeEnum)
   @objc deinit
+}
+@available(iOS 13.0, *)
+extension SwiftUI.View {
+  public func presentModalView(isPresented: SwiftUI.Binding<Swift.Bool>, token: SwiftUI.Binding<Swift.String>) -> some SwiftUI.View
+  
 }
 extension WalleePaymentSdk.ConsoleErrorHandler : Swift.Equatable {}
 extension WalleePaymentSdk.ConsoleErrorHandler : Swift.Hashable {}
