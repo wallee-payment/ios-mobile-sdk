@@ -55,19 +55,16 @@ public struct PaymentResult {
 public class WalleePaymentSdk {
   public static func onHandleOpenURL(url: Foundation.URL) -> Swift.Bool
   public init(eventObserver: WalleePaymentSdk.WalleePaymentResultObserver)
-  public func launchPayment(token: Swift.String, rootController: UIKit.UIViewController)
+  public func launchPayment(token: Swift.String)
   public func configureApplePay(merchantId: Swift.String)
+  @available(iOS 13.0, *)
+  public func launchPayment(token: Swift.String, isSwiftUI: Swift.Bool)
   public func close()
   public func setLightTheme(light: Foundation.NSMutableDictionary)
   public func setAnimation(type: WalleePaymentSdk.AnimationEnum)
   public func setDarkTheme(dark: Foundation.NSMutableDictionary)
   public func setCustomTheme(custom: Foundation.NSMutableDictionary?, baseTheme: WalleePaymentSdk.ThemeEnum)
   @objc deinit
-}
-@available(iOS 13.0, *)
-extension SwiftUI.View {
-  public func presentModalView(isPresented: SwiftUI.Binding<Swift.Bool>, token: SwiftUI.Binding<Swift.String>, animationType: WalleePaymentSdk.AnimationEnum) -> some SwiftUI.View
-  
 }
 public enum AnimationEnum : Swift.String {
   case BUBBLE

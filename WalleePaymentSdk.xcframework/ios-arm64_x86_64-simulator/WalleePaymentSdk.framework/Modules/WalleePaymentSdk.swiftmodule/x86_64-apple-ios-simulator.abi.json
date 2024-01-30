@@ -1461,7 +1461,7 @@
           {
             "kind": "Function",
             "name": "launchPayment",
-            "printedName": "launchPayment(token:rootController:)",
+            "printedName": "launchPayment(token:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1473,17 +1473,11 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16WalleePaymentSdkAAC06launchB05token14rootControllerySS_So06UIViewG0CtF",
-            "mangledName": "$s16WalleePaymentSdkAAC06launchB05token14rootControllerySS_So06UIViewG0CtF",
+            "usr": "s:16WalleePaymentSdkAAC06launchB05tokenySS_tF",
+            "mangledName": "$s16WalleePaymentSdkAAC06launchB05tokenySS_tF",
             "moduleName": "WalleePaymentSdk",
             "declAttributes": [
               "AccessControl"
@@ -1513,6 +1507,40 @@
             "moduleName": "WalleePaymentSdk",
             "declAttributes": [
               "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "launchPayment",
+            "printedName": "launchPayment(token:isSwiftUI:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16WalleePaymentSdkAAC06launchB05token9isSwiftUIySS_SbtF",
+            "mangledName": "$s16WalleePaymentSdkAAC06launchB05token9isSwiftUIySS_SbtF",
+            "moduleName": "WalleePaymentSdk",
+            "intro_iOS": "13.0",
+            "declAttributes": [
+              "AccessControl",
+              "Available"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1888,93 +1916,6 @@
             "mangledName": "$sSY"
           }
         ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "View",
-        "printedName": "View",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "presentModalView",
-            "printedName": "presentModalView(isPresented:token:animationType:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Binding",
-                "printedName": "SwiftUI.Binding<Swift.Bool>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "usr": "s:7SwiftUI7BindingV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Binding",
-                "printedName": "SwiftUI.Binding<Swift.String>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:7SwiftUI7BindingV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "AnimationEnum",
-                "printedName": "WalleePaymentSdk.AnimationEnum",
-                "usr": "s:16WalleePaymentSdk13AnimationEnumO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP16WalleePaymentSdkE012presentModalC011isPresented5token13animationTypeQrAA7BindingVySbG_AJySSGAD13AnimationEnumOtF",
-            "mangledName": "$s7SwiftUI4ViewP16WalleePaymentSdkE012presentModalC011isPresented5token13animationTypeQrAA7BindingVySbG_AJySSGAD13AnimationEnumOtF",
-            "moduleName": "WalleePaymentSdk",
-            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
-            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:7SwiftUI4ViewP",
-        "mangledName": "$s7SwiftUI4ViewP",
-        "moduleName": "SwiftUI",
-        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
-        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
-        "intro_Macosx": "10.15",
-        "intro_iOS": "13.0",
-        "intro_tvOS": "13.0",
-        "intro_watchOS": "6.0",
-        "declAttributes": [
-          "TypeEraser",
-          "Available",
-          "Available",
-          "Available",
-          "Available"
-        ],
-        "isExternal": true
       }
     ],
     "json_format_version": 8
