@@ -57,6 +57,7 @@ public class WalleePaymentSdk {
   public init(eventObserver: WalleePaymentResultObserver)
   public func launchPayment(token: Swift.String)
   public func configureApplePay(merchantId: Swift.String)
+  public func configureDeepLink(deepLink: Swift.String)
   @available(iOS 13.0, *)
   public func launchPayment(token: Swift.String, isSwiftUI: Swift.Bool)
   public func close()
