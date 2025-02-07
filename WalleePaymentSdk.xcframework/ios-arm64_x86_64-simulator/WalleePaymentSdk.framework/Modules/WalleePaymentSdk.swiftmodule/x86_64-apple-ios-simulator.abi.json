@@ -575,6 +575,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "PaymentResultEnum",
         "printedName": "PaymentResultEnum",
@@ -1130,6 +1140,16 @@
       },
       {
         "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1160,6 +1180,20 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "ThreeDS_SDK",
+        "printedName": "ThreeDS_SDK",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "WalleePaymentSdk",
         "declAttributes": [
           "RawDocComment"
@@ -1188,6 +1222,26 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -1293,6 +1347,23 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ThreeDS_SDK",
+        "printedName": "ThreeDS_SDK",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1312,6 +1383,30 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "ThreeDS_SDK",
+        "printedName": "ThreeDS_SDK",
         "declKind": "Import",
         "moduleName": "WalleePaymentSdk"
       },
@@ -1358,16 +1453,6 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "WalleePaymentSdk"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "WalleePaymentSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -1413,6 +1498,57 @@
         "printedName": "WalleePaymentSdk",
         "children": [
           {
+            "kind": "Var",
+            "name": "SDK_VERSION",
+            "printedName": "SDK_VERSION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16WalleePaymentSdkAAC11SDK_VERSIONSSvpZ",
+            "mangledName": "$s16WalleePaymentSdkAAC11SDK_VERSIONSSvpZ",
+            "moduleName": "WalleePaymentSdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WalleePaymentSdkAAC11SDK_VERSIONSSvgZ",
+                "mangledName": "$s16WalleePaymentSdkAAC11SDK_VERSIONSSvgZ",
+                "moduleName": "WalleePaymentSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "onHandleOpenURL",
             "printedName": "onHandleOpenURL(url:)",
@@ -1455,7 +1591,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WalleePaymentResultObserver",
-                "printedName": "WalleePaymentSdk.WalleePaymentResultObserver",
+                "printedName": "any WalleePaymentSdk.WalleePaymentResultObserver",
                 "usr": "s:16WalleePaymentSdk0aB14ResultObserverP"
               }
             ],
@@ -1540,6 +1676,40 @@
             "declKind": "Func",
             "usr": "s:16WalleePaymentSdkAAC17configureDeepLink04deepF0ySS_tF",
             "mangledName": "$s16WalleePaymentSdkAAC17configureDeepLink04deepF0ySS_tF",
+            "moduleName": "WalleePaymentSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configureBaseUrl",
+            "printedName": "configureBaseUrl(baseUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16WalleePaymentSdkAAC16configureBaseUrl04baseF0ySSSg_tF",
+            "mangledName": "$s16WalleePaymentSdkAAC16configureBaseUrl04baseF0ySSSg_tF",
             "moduleName": "WalleePaymentSdk",
             "declAttributes": [
               "AccessControl"
@@ -1755,6 +1925,51 @@
         "moduleName": "WalleePaymentSdk"
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "ThreeDS_SDK",
+        "printedName": "ThreeDS_SDK",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WalleePaymentSdk"
+      },
+      {
         "kind": "TypeDecl",
         "name": "AnimationEnum",
         "printedName": "AnimationEnum",
@@ -1831,6 +2046,43 @@
             "declKind": "EnumElement",
             "usr": "s:16WalleePaymentSdk13AnimationEnumO5SLIDEyA2CmF",
             "mangledName": "$s16WalleePaymentSdk13AnimationEnumO5SLIDEyA2CmF",
+            "moduleName": "WalleePaymentSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "NONE",
+            "printedName": "NONE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WalleePaymentSdk.AnimationEnum.Type) -> WalleePaymentSdk.AnimationEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimationEnum",
+                    "printedName": "WalleePaymentSdk.AnimationEnum",
+                    "usr": "s:16WalleePaymentSdk13AnimationEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WalleePaymentSdk.AnimationEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnimationEnum",
+                        "printedName": "WalleePaymentSdk.AnimationEnum",
+                        "usr": "s:16WalleePaymentSdk13AnimationEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WalleePaymentSdk13AnimationEnumO4NONEyA2CmF",
+            "mangledName": "$s16WalleePaymentSdk13AnimationEnumO4NONEyA2CmF",
             "moduleName": "WalleePaymentSdk"
           },
           {
@@ -1958,424 +2210,732 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/RNScreenController.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/RNScreenController.swift",
       "kind": "StringLiteral",
       "offset": 158,
       "length": 43,
       "value": "\"wallee-payment-sdk-close-app-notification\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/RNScreenController.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/RNScreenController.swift",
       "kind": "BooleanLiteral",
       "offset": 229,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/RNScreenController.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/RNScreenController.swift",
       "kind": "StringLiteral",
-      "offset": 280,
+      "offset": 305,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/RNScreenController.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/RNScreenController.swift",
       "kind": "Dictionary",
-      "offset": 330,
+      "offset": 355,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Helpers\/ConsoleErrorHandler.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Helpers\/ConsoleErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 106,
       "length": 25,
       "value": "\"Token can not be empty!\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Helpers\/ConsoleErrorHandler.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Helpers\/ConsoleErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 106,
       "length": 25,
       "value": "\"Token can not be empty!\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
       "kind": "StringLiteral",
       "offset": 69,
       "length": 7,
       "value": "\"light\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
       "kind": "StringLiteral",
       "offset": 93,
       "length": 6,
       "value": "\"dark\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
       "kind": "StringLiteral",
       "offset": 69,
       "length": 7,
       "value": "\"light\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/ThemeEnum.swift",
       "kind": "StringLiteral",
       "offset": 93,
       "length": 6,
       "value": "\"dark\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 265,
       "length": 15,
       "value": "\"twint-payment\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 380,
       "length": 14,
       "value": "\"twint_result\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 436,
       "length": 27,
       "value": "\"TWINT_EVENT_LISTENER_NAME\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 530,
       "length": 14,
       "value": "\"TW_B_SUCCESS\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 566,
       "length": 12,
       "value": "\"TW_B_ERROR\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 608,
       "length": 24,
       "value": "\"TW_B_APP_NOT_INSTALLED\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 661,
       "length": 26,
       "value": "\"TW_T_CODE_FORMAT_INVALID\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 722,
       "length": 27,
       "value": "\"TW_IOS_SCHEMA_URL_INVALID\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 530,
       "length": 14,
       "value": "\"TW_B_SUCCESS\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 566,
       "length": 12,
       "value": "\"TW_B_ERROR\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 608,
       "length": 24,
       "value": "\"TW_B_APP_NOT_INSTALLED\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 661,
       "length": 26,
       "value": "\"TW_T_CODE_FORMAT_INVALID\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 722,
       "length": 27,
       "value": "\"TW_IOS_SCHEMA_URL_INVALID\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 168,
       "length": 10,
       "value": "\"CANCELED\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 197,
       "length": 8,
       "value": "\"FAILED\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 11,
       "value": "\"COMPLETED\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 258,
       "length": 9,
       "value": "\"TIMEOUT\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 287,
       "length": 9,
       "value": "\"PENDING\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 168,
       "length": 10,
       "value": "\"CANCELED\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 197,
       "length": 8,
       "value": "\"FAILED\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 11,
       "value": "\"COMPLETED\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 258,
       "length": 9,
       "value": "\"TIMEOUT\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 287,
       "length": 9,
       "value": "\"PENDING\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ApplePay.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/LoggerWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 283,
+      "offset": 282,
+      "length": 9,
+      "value": "\"threeDS\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ApplePay.swift",
+      "kind": "StringLiteral",
+      "offset": 291,
       "length": 16,
       "value": "\"applePayResult\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ApplePay.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ApplePay.swift",
       "kind": "StringLiteral",
-      "offset": 344,
+      "offset": 352,
       "length": 30,
       "value": "\"APPLEPAY_EVENT_LISTENER_NAME\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ModalPresentationController.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 118,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 151,
+      "length": 3,
+      "value": "\"N\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 183,
+      "length": 3,
+      "value": "\"U\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 217,
+      "length": 3,
+      "value": "\"A\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 250,
+      "length": 3,
+      "value": "\"C\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 288,
+      "length": 3,
+      "value": "\"R\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 3,
+      "value": "\"D\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 368,
+      "length": 3,
+      "value": "\"I\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 118,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 151,
+      "length": 3,
+      "value": "\"N\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 183,
+      "length": 3,
+      "value": "\"U\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 217,
+      "length": 3,
+      "value": "\"A\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 250,
+      "length": 3,
+      "value": "\"C\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 288,
+      "length": 3,
+      "value": "\"R\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 3,
+      "value": "\"D\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 368,
+      "length": 3,
+      "value": "\"I\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ModalPresentationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 305,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ModalPresentationController.swift",
       "kind": "IntegerLiteral",
-      "offset": 496,
+      "offset": 351,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ModalPresentationController.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ModalPresentationController.swift",
       "kind": "IntegerLiteral",
-      "offset": 502,
+      "offset": 598,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ModalTransitioningDelegate.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ModalPresentationController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 604,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ModalPresentationController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2166,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ModalTransitioningDelegate.swift",
       "kind": "BooleanLiteral",
       "offset": 256,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ModalTransitioningDelegate.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ModalTransitioningDelegate.swift",
       "kind": "StringLiteral",
       "offset": 150,
       "length": 26,
       "value": "\"WalleePaymentSdk.ModalTransitioningDelegate\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ResizeScreen\/ResizeScreenModule.swift",
+      "kind": "StringLiteral",
+      "offset": 339,
+      "length": 36,
+      "value": "\"payment-sdk-resize-screen_observer\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 267,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 311,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 369,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 375,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 438,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 442,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 494,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 498,
       "length": 3,
       "value": "0.6"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 553,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 557,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 603,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 664,
       "length": 29,
       "value": "\"wallee.com.WalleePaymentSdk\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 744,
       "length": 10,
       "value": "\"RNScreen\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 821,
       "length": 11,
       "value": "\"rn-screen\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/GlobalEventSender\/GlobalEventSenderModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/GlobalEventSender\/GlobalEventSenderModule.swift",
       "kind": "StringLiteral",
       "offset": 190,
       "length": 23,
       "value": "\"WalleePaymentSdk.GlobalEventSenderModule\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/WalleePaymentSdk.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ThreeDSManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 302,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/WalleePaymentSdk.swift",
       "kind": "StringLiteral",
       "offset": 241,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Helpers\/Theme.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/WalleePaymentSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 262,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/WalleePaymentSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 301,
+      "length": 7,
+      "value": "\"1.4.1\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Helpers\/Theme.swift",
       "kind": "BooleanLiteral",
       "offset": 432,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/AnimationEnum.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 314,
+      "length": 17,
+      "value": "\"THREEDS_SUCCESS\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 353,
+      "length": 15,
+      "value": "\"THREEDS_ERROR\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 394,
+      "length": 19,
+      "value": "\"THREEDS_CANCELLED\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 437,
+      "length": 17,
+      "value": "\"THREEDS_TIMEOUT\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 485,
+      "length": 24,
+      "value": "\"THREEDS_PROTOCOL_ERROR\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 539,
+      "length": 23,
+      "value": "\"THREEDS_RUNTIME_ERROR\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 594,
+      "length": 25,
+      "value": "\"THREEDS_INIT_SUCCESSFUL\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 314,
+      "length": 17,
+      "value": "\"THREEDS_SUCCESS\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 353,
+      "length": 15,
+      "value": "\"THREEDS_ERROR\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 394,
+      "length": 19,
+      "value": "\"THREEDS_CANCELLED\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 437,
+      "length": 17,
+      "value": "\"THREEDS_TIMEOUT\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 485,
+      "length": 24,
+      "value": "\"THREEDS_PROTOCOL_ERROR\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 539,
+      "length": 23,
+      "value": "\"THREEDS_RUNTIME_ERROR\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 594,
+      "length": 25,
+      "value": "\"THREEDS_INIT_SUCCESSFUL\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 667,
+      "length": 16,
+      "value": "\"threeds_result\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 727,
+      "length": 29,
+      "value": "\"THREEDS_EVENT_LISTENER_NAME\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 803,
+      "length": 23,
+      "value": "\"THREEDS_ERROR_MESSAGE\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 905,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/AnimationEnum.swift",
       "kind": "StringLiteral",
       "offset": 74,
       "length": 8,
       "value": "\"bubble\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/AnimationEnum.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/AnimationEnum.swift",
       "kind": "StringLiteral",
       "offset": 100,
       "length": 7,
       "value": "\"slide\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/AnimationEnum.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/AnimationEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 124,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/AnimationEnum.swift",
       "kind": "StringLiteral",
       "offset": 74,
       "length": 8,
       "value": "\"bubble\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/AnimationEnum.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/AnimationEnum.swift",
       "kind": "StringLiteral",
       "offset": 100,
       "length": 7,
       "value": "\"slide\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Enums\/AnimationEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 124,
+      "length": 6,
+      "value": "\"none\""
     }
   ]
 }

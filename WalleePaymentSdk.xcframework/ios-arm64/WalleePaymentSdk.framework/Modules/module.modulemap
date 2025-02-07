@@ -1,7 +1,7 @@
 framework module WalleePaymentSdk {
   umbrella header "WalleePaymentSdk.h"
-
   export *
+
   module * { export * }
 }
 
