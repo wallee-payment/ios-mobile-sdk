@@ -2288,85 +2288,92 @@
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
+      "kind": "IntegerLiteral",
+      "offset": 494,
+      "length": 2,
+      "value": "39"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 380,
+      "offset": 541,
       "length": 14,
       "value": "\"twint_result\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 436,
+      "offset": 597,
       "length": 27,
       "value": "\"TWINT_EVENT_LISTENER_NAME\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 530,
+      "offset": 691,
       "length": 14,
       "value": "\"TW_B_SUCCESS\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 566,
+      "offset": 727,
       "length": 12,
       "value": "\"TW_B_ERROR\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 608,
+      "offset": 769,
       "length": 24,
       "value": "\"TW_B_APP_NOT_INSTALLED\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 661,
+      "offset": 822,
       "length": 26,
       "value": "\"TW_T_CODE_FORMAT_INVALID\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 722,
+      "offset": 883,
       "length": 27,
       "value": "\"TW_IOS_SCHEMA_URL_INVALID\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 530,
+      "offset": 691,
       "length": 14,
       "value": "\"TW_B_SUCCESS\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 566,
+      "offset": 727,
       "length": 12,
       "value": "\"TW_B_ERROR\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 608,
+      "offset": 769,
       "length": 24,
       "value": "\"TW_B_APP_NOT_INSTALLED\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 661,
+      "offset": 822,
       "length": 26,
       "value": "\"TW_T_CODE_FORMAT_INVALID\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 722,
+      "offset": 883,
       "length": 27,
       "value": "\"TW_IOS_SCHEMA_URL_INVALID\""
     },
@@ -2760,7 +2767,7 @@
       "kind": "StringLiteral",
       "offset": 301,
       "length": 7,
-      "value": "\"1.4.1\""
+      "value": "\"1.4.2\""
     },
     {
       "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/ios\/WalleePaymentSdk\/Helpers\/Theme.swift",
